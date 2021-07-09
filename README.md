@@ -1,10 +1,8 @@
-# Taquito boilerplate
+# The Best DApp Ever
 
 ![Built with Taquito][logo]
 
-A minimal framework-agnostic setup for starting developing Tezos DApps quickly with Taquito.
-
-> If you are looking for the React template, please follow [this link](https://github.com/ecadlabs/taquito-react-template).
+The Best DApp Ever finds the balance of any Tezos account..
 
 ## Dependencies
 1. jQuery - for simple manipulation and traversal of HTML documents.
@@ -12,17 +10,15 @@ A minimal framework-agnostic setup for starting developing Tezos DApps quickly w
 
 ## Getting Started
 
-1. Create a new repository from taquito-boilerplate by clicking "Use this template".
-2. Clone your new repository:
-
-    `git clone <YOUR_REPOSITORY_URL>`
-
-3. Change your current working directory to the newly cloned repository directory.
 4. Install dependencies:
 
-    `npm install`
+    `yarn install`
 
-5. Start development server:
+7. Yarn upgrade:
+
+    `yarn upgrade`
+
+5. Start development serverer:
 
     `npm run watch`
 
