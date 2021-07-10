@@ -7,7 +7,7 @@
     "watch": "parcel src/index.html",
     "clean": "rm -rf dist",
     "build": "npm run clean && parcel build ./src/index.html",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -26,6 +26,7 @@
   "devDependencies": {
     "@types/jquery": "^3.5.5",
     "jquery": "^3.5.1",
+    "mocha": "^9.0.2",
     "parcel-bundler": "^1.12.4",
     "typescript": "^4.1.5"
   },
