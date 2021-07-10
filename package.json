@@ -1,17 +1,18 @@
 {
-  "name": "taquito-boilerplate-app",
+  "name": "the-best-dapp-ever",
   "version": "1.0.0",
-  "description": "A boilerplate app for creating a DApp using Taquito",
+  "description": "Gets a blance for a Tezos address",
   "main": "index.js",
   "scripts": {
     "watch": "parcel src/index.html",
     "clean": "rm -rf dist",
     "build": "npm run clean && parcel build ./src/index.html",
-    "test": "mocha"
+    "test": "mocha --testPathIgnorePatterns=.*e2e.test.js",
+    "test:e2e": "jest -c jest.config.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ecadlabs/taquito-boilerplate-app.git"
+    "url": "git+https://github.com/michaelkernaghan/BestDappEver.git"
   },
   "keywords": [
     "tezos",
@@ -25,6 +26,7 @@
   "license": "MIT",
   "devDependencies": {
     "@types/jquery": "^3.5.5",
+    "jest-puppeteer": "^5.0.4",
     "jquery": "^3.5.1",
     "mocha": "^9.0.2",
     "parcel-bundler": "^1.12.4",
