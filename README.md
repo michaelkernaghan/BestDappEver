@@ -18,7 +18,7 @@ The Best DApp Ever finds the balance of any Tezos account..
 
     `yarn upgrade`
 
-5. Start development serverer:
+5. Start development server:
 
     `npm run watch`
 
