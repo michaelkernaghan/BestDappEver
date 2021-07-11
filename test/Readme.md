@@ -17,4 +17,6 @@ Make sure the BestDappever is running on localhost:1234
 Run the end to end test with
 
     'yarn test:e2e'
+
+Careful to not get mocha calling puppeteer in the cicd.
     
