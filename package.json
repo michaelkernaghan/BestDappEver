@@ -35,5 +35,8 @@
   },
   "dependencies": {
     "@taquito/taquito": "^8.0.3-beta.0"
+  },
+  "optionalDependencies": {
+    "fsevents": "^2.3.2"
   }
 }
