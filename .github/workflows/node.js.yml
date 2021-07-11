@@ -26,6 +26,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
+    - run: npm i fsevents@latest -f --save-optional
     - run: npm install --no-optional
     - run: npm run build --if-present
     - run: npm test
