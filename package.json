@@ -26,11 +26,13 @@
   "license": "MIT",
   "devDependencies": {
     "@types/jquery": "^3.5.5",
+    "cssnano": "^5.0.6",
     "jest-puppeteer": "^5.0.4",
     "jquery": "^3.5.1",
     "mocha": "^9.0.2",
     "parcel-bundler": "^1.12.4",
-    "typescript": "^4.1.5"
+    "postcss": "^8.2.15",
+    "typescript": "^4.3.5"
   },
   "dependencies": {
     "@taquito/taquito": "^8.0.3-beta.0"
