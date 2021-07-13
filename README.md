@@ -1,6 +1,16 @@
 # The Best DApp Ever
 
 The Best DApp Ever finds the balance of any Tezos account.
+It is a blockchain application. It works on Tezos mainnet.
+
+Some tools for exploring Tezos blockchain are:
+    https://better-call.dev/
+    https://tzkt.io/
+    https://tzstats.com/
+
+These tools can do what the Best DApp Ever does, and can be used for verification, 
+but they are not as AMAZING!
+
 
 ## Dependencies
 1. jQuery - for simple manipulation and traversal of HTML documents.
