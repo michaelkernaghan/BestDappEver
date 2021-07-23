@@ -4,19 +4,4 @@
 
 then
 
-    `npm run test`
-
-# To run end to end test
-
-Install Jest Puppeteer with the command 
-
-    `yarn add -D jest-puppeteer` 
-
-Make sure the BestDappever is running on localhost:1234
-
-Run the end to end test with
-
-    'yarn test:e2e'
-
-Careful to not get mocha calling puppeteer in the cicd.
-    
+    `npm run test`    

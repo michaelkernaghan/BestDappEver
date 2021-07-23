@@ -7,8 +7,7 @@
     "watch": "parcel src/index.html",
     "clean": "rm -rf dist",
     "build": "npm run clean && parcel build ./src/index.html",
-    "test": "mocha --testPathIgnorePatterns=.*e2e.test.js",
-    "test:e2e": "jest -c jest.config.js"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
