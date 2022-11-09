@@ -5,7 +5,7 @@ export class App {
   private tk: TezosToolkit;
 
   constructor() {
-    this.tk = new TezosToolkit("https://api.tez.ie/rpc/mainnet");
+    this.tk = new TezosToolkit("https://mainnet.api.tez.ie");
   }
 
   public initUI() {
